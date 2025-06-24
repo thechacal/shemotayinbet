@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Irmandade Judaica Shemot Ayin-Bet</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #f9f4ef, #e3dac9);
+      color: #3b2f2f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    .highlight {
+      color: #7a5c3e;
+    }
+
+    .section {
+      background-color: #fffefb;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 600px;
+      width: 100%;
+      padding: 30px;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .pix {
+      font-size: 1.5rem;
+      margin: 20px 0;
+      color: #2e7d32;
+      font-weight: bold;
+      word-break: break-word;
+    }
+
+    .button {
+      background-color: #2e7d32;
+      color: white;
+      padding: 14px 30px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #1b5e20;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      text-align: center;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      .logo {
+        font-size: 1.8rem;
+      }
+
+      .pix {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Irmandade Judaica <span class="highlight">Shemot Ayin-Bet</span></div>
+    <p>Uma jornada espiritual guiada pela luz dos 72 Nomes</p>
+  </header>
+
+  <section class="section">
+    <h2>Contribua com nossa missão</h2>
+    <p>Sua doação fortalece nossas ações espirituais e sociais.</p>
+    <div class="pix">PIX: 61.078.790/0001-12</div>
+    <button class="button" onclick="navigator.clipboard.writeText('61078790000112'); alert('Chave PIX copiada!');">Copiar Chave PIX</button>
+  </section>
+
+  <footer>
+    Rua Florentino Capelozza, 30 – Vila Moreira – São Paulo, SP – 03088-090<br>
+    © 2025 Irmandade Judaica Shemot Ayin-Bet
+  </footer>
+</body>
+</html>
